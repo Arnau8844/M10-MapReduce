@@ -11,7 +11,7 @@ def contLletra(nomFitxer):
                         lletresAnts[lletra] = 1
 
     for lletra, cont in sorted(lletresAnts.items()):
-        print(f"{lletra}: {cont}")
+        print(f"La letra: {lletra} se ha repetido: {cont}")
 
 def contpalabras(nomFitxer):
     simbolos = ['¿','?','.','.',';',':','¡','!']
@@ -35,8 +35,8 @@ def contpalabras(nomFitxer):
 
 
 while True:
-    print("1. Realizar la función contLletra")
-    print("2. contpalabras")
+    print("1. Contar las letras")
+    print("2. Contar las palabras")
     print("3. Salir")
     opcion = input("Seleccione una opción: ")
 
