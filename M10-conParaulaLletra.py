@@ -11,7 +11,7 @@ def contLletra(nomFitxer):
                         lletresAnts[lletra] = 1
 
     for lletra, cont in sorted(lletresAnts.items()):
-        print(f"La letra: {lletra} se ha repetido: {cont}")
+        print(f"La letra {lletra} se ha repetido: {cont}")
 
 def contpalabras(nomFitxer):
     simbolos = ['¿','?','.','.',';',':','¡','!']
